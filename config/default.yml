@@ -580,6 +580,14 @@ Layout/EmptyLineBetweenDefs:
   # Can be array to specify minimum and maximum number of empty lines, e.g. [1, 2]
   NumberOfEmptyLines: 1
 
+Layout/EmptyLineBetweenMacros:
+  Description: 'Use empty lines between configured macros.'
+  Enabled: pending
+  VersionAdded: '<<next>>'
+  IncludedMacros: []
+  NumberOfEmptyLines: 1
+  AllowAdjacentOneLineDefs: true
+
 Layout/EmptyLines:
   Description: "Don't use several empty lines in a row."
   StyleGuide: '#two-or-more-empty-lines'
